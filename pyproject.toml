@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "two-step-verification"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torchvision = "*"
+timm = "*"
+matplotlib = "*"
+diffusers = "*"
+accelerate = "*"
+transformers = "*"
+opencv-python-headless = "*"
+click = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
